@@ -1,0 +1,265 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 1em;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #f4f4f4;
+    padding: 4em 1em;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  
+  /* Button Styles */
+  .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Products Grid */
+  .products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 2em auto;
+    gap: 2em;
+    padding: 0 1em;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    text-align: center;
+    flex: 1 1 calc(25% - 2em);
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Product Details */
+  .product-details {
+    max-width: 800px;
+    margin: 2em auto;
+    display: flex;
+    gap: 2em;
+    padding: 0 1em;
+  }
+  
+  .product-details img {
+    width: 50%;
+  }
+  
+  .details {
+    width: 50%;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .products-grid {
+      flex-direction: column;
+      gap: 1em;
+    }
+  
+    .product-card {
+      flex: 1 1 100%;
+    }
+  
+    .product-details {
+      flex-direction: column;
+    }
+  
+    .product-details img,
+    .details {
+      width: 100%;
+    }
+  }
+
+  /* new ones*/
+
+  /* Categories Section */
+.categories-section {
+  padding: 2em 1em;
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.category-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.category-card p {
+  margin-top: 0.5em;
+  font-weight: bold;
+}
+
+/* Featured Products Section */
+.featured-products {
+  padding: 2em 1em;
+  background-color: #f9f9f9;
+}
+
+.featured-products h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.featured-products .products-grid {
+  justify-content: center;
+}
+
+/* Navbar Dropdown Styles */
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-left: 1em;
+  position: relative;
+}
+
+.nav-links a,
+.nav-links span {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  padding: 0.5em 0;
+  top: 100%;
+  left: 0;
+  min-width: 150px;
+  z-index: 1;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu a {
+  color: #fff;
+  padding: 0.5em 1em;
+  display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #555;
+}
+
+/* Search Bar Styles */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+}
+
+.search-bar input {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+.search-bar .btn {
+  margin-left: 0.5em;
+}
+
+
+/* Wishlist Button */
+.wishlist-btn {
+  background-color: #ff4081;
+  margin-left: 1em;
+}
+
+.wishlist-btn:hover {
+  background-color: #e91e63;
+}
+
+
+
+  
