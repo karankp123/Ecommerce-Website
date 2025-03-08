@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/karankp123/Ecommerce-Website.git/static/css/main.c7fb1adf.css",
-    "main.js": "/karankp123/Ecommerce-Website.git/static/js/main.dbadd0c2.js",
-    "static/media/electronics.jpg": "/karankp123/Ecommerce-Website.git/static/media/electronics.250f58cd2b1de3179b76.jpg",
-    "static/media/wearables.jpg": "/karankp123/Ecommerce-Website.git/static/media/wearables.e3f1ce7de1176d58ffe9.jpg",
-    "static/media/audio.jpg": "/karankp123/Ecommerce-Website.git/static/media/audio.eb9cd84ca59b8b415786.jpg",
-    "static/media/computers.jpg": "/karankp123/Ecommerce-Website.git/static/media/computers.df2f8d4ab5463ad6441d.jpg",
-    "static/media/earbuds.jpg": "/karankp123/Ecommerce-Website.git/static/media/earbuds.e9bf2768f4289702ceba.jpg",
-    "index.html": "/karankp123/Ecommerce-Website.git/index.html",
-    "main.c7fb1adf.css.map": "/karankp123/Ecommerce-Website.git/static/css/main.c7fb1adf.css.map",
-    "main.dbadd0c2.js.map": "/karankp123/Ecommerce-Website.git/static/js/main.dbadd0c2.js.map"
+    "main.css": "/Ecommerce-Website/static/css/main.c7fb1adf.css",
+    "main.js": "/Ecommerce-Website/static/js/main.ba03dd4e.js",
+    "static/media/electronics.jpg": "/Ecommerce-Website/static/media/electronics.250f58cd2b1de3179b76.jpg",
+    "static/media/wearables.jpg": "/Ecommerce-Website/static/media/wearables.e3f1ce7de1176d58ffe9.jpg",
+    "static/media/audio.jpg": "/Ecommerce-Website/static/media/audio.eb9cd84ca59b8b415786.jpg",
+    "static/media/computers.jpg": "/Ecommerce-Website/static/media/computers.df2f8d4ab5463ad6441d.jpg",
+    "static/media/earbuds.jpg": "/Ecommerce-Website/static/media/earbuds.e9bf2768f4289702ceba.jpg",
+    "index.html": "/Ecommerce-Website/index.html",
+    "main.c7fb1adf.css.map": "/Ecommerce-Website/static/css/main.c7fb1adf.css.map",
+    "main.ba03dd4e.js.map": "/Ecommerce-Website/static/js/main.ba03dd4e.js.map"
   },
   "entrypoints": [
     "static/css/main.c7fb1adf.css",
-    "static/js/main.dbadd0c2.js"
+    "static/js/main.ba03dd4e.js"
   ]
 }
